@@ -3,6 +3,12 @@
 Dex2cxx is a powerful tool for converting Android DEX files into C++ code. It automates the process of JNI wrapper generation APK rebuilding and method filtering
 
 
+
+<div style="display:flex; gap:10px;">
+    <img src="image/image1.jpg" style="width:50%; height:auto; border-radius:10px;">
+    <img src="image/image2.jpg" style="width:50%; height:auto; border-radius:10px;">
+</div>
+
 ### Using Dex2cxx with Termux
 
 Dex2cxx can be used on Termux for Android devices. Follow the steps below to set up and use the tool
