@@ -1,0 +1,6 @@
+# Rules are made using regex patterns
+
+# Protect all methods in all classes
+# Not recommended for real world applications.
+# java -jar dex2c.jar -a .\aa.apk -o .\aa_p.apk --filter .\filter.txt --report .\RuruData_methods-report.txt
+com.test.smsapp.MainActivity
