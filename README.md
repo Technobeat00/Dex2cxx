@@ -1,13 +1,16 @@
 # Dex2cxx
 
-Dex2cxx is a powerful tool designed to assist developers in converting Android DEX files into C++ code. This tool simplifies the process of analyzing and working with Android applications at a lower level.
+Dex2cxx is a powerful tool for converting Android DEX files into C++ code. It automates the process of JNI wrapper generation, APK rebuilding, and method filtering.
 
 ## Features
-- Convert DEX files to C++ code.
-- Automated pipeline for processing APKs.
-- Support for JNI and native methods.
-- Flexible configuration options.
-- Cross-platform support.
+- **DEX to C++ Conversion**: Transform Java methods into native C++ code.
+- **Automated Pipeline**: Disassemble, patch, reassemble, and sign APKs.
+- **Multi-ABI Support**: Build for all Android architectures.
+- **Auto-Setup Mode**: Zero-config environment setup.
+- **Method Filtering**: Apply regex-based filters to target specific methods.
+- **JNI Code Generation**: Create native stubs for seamless integration.
+- **OLLVM Obfuscation**: Optional code obfuscation for enhanced security.
+- **Comprehensive Reports**: Generate TSV reports for method analysis.
 
 ---
 
@@ -24,24 +27,8 @@ Before using Dex2cxx, ensure you have the following installed:
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/dex2cxx.git
-   cd dex2cxx
-   ```
-
-2. Configure the environment:
-   - Set up the `JAVA_HOME` and `ANDROID_NDK_HOME` environment variables.
-
-3. Build the project:
-   - On Windows:
-     ```powershell
-     .\java\build.ps1
-     ```
-   - On Linux/Mac:
-     ```bash
-     ./java/build.sh
-     ```
+1. Download the pre-built JAR file from the [releases page](https://github.com/your-repo/dex2cxx/releases).
+2. Ensure Java is installed on your system.
 
 ---
 
@@ -168,3 +155,5 @@ If you encounter any issues, please open an issue on the [GitHub repository](htt
 ## Acknowledgments
 - Inspired by the Android development community.
 - Special thanks to contributors and testers.
+
+---
