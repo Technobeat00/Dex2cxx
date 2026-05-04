@@ -1,4 +1,6 @@
 # Dex2cxx
+## Authors
+::: @aantik_mods
 
 Dex2cxx is a powerful tool for converting Android DEX files into C++ code. It automates the process of JNI wrapper generation APK rebuilding and method filtering
 
@@ -15,35 +17,23 @@ Dex2cxx can be used on Termux for Android devices. Follow the steps below to set
 
 #### Prerequisites
 Ensure the following are installed on your Termux environment:
+**Java Runtime Environment JRE**:
+```bash
+pkg install openjdk-17
+```
 
-1. **Java Runtime Environment JRE**:
-   ```bash
-   pkg install openjdk-17
-   ```
+**Git** (optional, for cloning repositories):
+```bash
+pkg install git
+```
 
-2. **Git** (optional, for cloning repositories):
-   ```bash
-   pkg install git
-   ```
-
-3. **Storage Permissions** (if accessing files outside Termux):
-   ```bash
-   termux-setup-storage
-   ```
+**Storage Permissions** (if accessing files outside Termux):
+```bash
+termux-setup-storage
+```
 
 ### filter.txt
-The `filter.txt` file specifies class filters. Each line represents a method to include or exclude.
-
----
-
-## Project Structure
-
-- `java/src` -> Contains the Java source code.
-- `project/jni` -> Contains the C++ source code.
-- `keystore` -> Contains keystore files for signing APKs.
-
----
-
+The `filter.txt` file specifies class filters
 
 ## Contributing
 We welcome contributions! Please follow these steps:
@@ -53,11 +43,6 @@ Fork the repository Create a new branch for your feature or bug fix Submit a pul
 
 ## Support
 If you encounter any issues, please open an issue on the [GitHub repository](https://github.com/your-repo/dex2cxx/issues).
-
----
-
-## Authors
-- **Your Name** - @aantik_mods
 
 ---
 
