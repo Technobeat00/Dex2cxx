@@ -1,4 +1,4 @@
-# Dex2cxx
+## Dex2cxx isn’t a complete project this is just a skeleton/demo version
 ## Authors
 ::: @aantik_mods
 
